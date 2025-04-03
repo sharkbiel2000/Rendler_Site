@@ -1,0 +1,12 @@
+//folhas de estilo sass
+@use './partials/header';
+
+//importando tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply 
+    bg-white;
+}
